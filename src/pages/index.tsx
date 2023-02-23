@@ -2,8 +2,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
-      <Link href="/typography">Typography</Link>
+    <div className="m-10">
+      <Link href="/typography" className="bg-red-500 text-white p-4">
+        Typography
+      </Link>
       {/* <h1 className="border-4 border-green-600">Hello world!</h1>
       <h1 className="text-vuejs-100">Hello world!</h1>
 
@@ -12,6 +14,6 @@ export default function Home() {
           Hello long sentence
         </p>
       </div> */}
-    </>
+    </div>
   );
 }
